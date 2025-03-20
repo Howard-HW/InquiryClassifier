@@ -1,0 +1,20 @@
+{
+    "version": "1.0",
+    "text_preprocessing": {
+        "cut_after_strings": [
+            {
+                "pattern": "os:",
+                "case_sensitive": false,
+                "enabled": true,
+                "description": "OS 정보 이후 텍스트 제거"
+            },
+            {
+                "pattern": "문의경로:",
+                "case_sensitive": true,
+                "enabled": true,
+                "description": "문의경로 정보 이후 텍스트 제거"
+            }
+        ],
+        "replace_patterns": []
+    }
+}
